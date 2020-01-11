@@ -1,0 +1,22 @@
+There are four ways to create builder pattern in swift-
+1. Simple builder like EmitterBuilder().build()
+2. chain builder link
+let url = URLBuilder()
+    .set(scheme: "https")
+    .set(host: "localhost")
+    .set(path: "api/v1")
+    .addQueryItem(name: "sort", value: "name")
+    .addQueryItem(name: "order", value: "asc")
+    .build()
+ 3. Director builder
+let builder = CircleNodeBuilder()
+let director = PlayerNodeDirector(builder: builder)
+let player = director.build()
+
+4. blockwise builder
+let label = UILabel.build { label in
+    label.translatesAutoresizingMaskIntoConstraints = false
+    label.text = "Hello wold!"
+    label.font = UIFont.systemFont(ofSize: 12)
+}
+     
