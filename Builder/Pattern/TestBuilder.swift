@@ -15,5 +15,15 @@ class TestBuilder {
         
         let student1 = StudentBuilder().build()
         print("Student Name: \(student1.name!)")
+        
+        let url = ChainedBuilder()
+        .set(scheme: "https")
+        .set(host: "localhost")
+        .set(path: "api/v1")
+        .addQueryItem(name: "sort", value: "name")
+        .addQueryItem(name: "order", value: "asc")
+        .build()
+        
+        print("url == \(url!)")
     }
 }

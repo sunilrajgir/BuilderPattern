@@ -17,6 +17,7 @@
 		326E4E6823C9F3C8006A8FC7 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326E4E6723C9F3C8006A8FC7 /* Student.swift */; };
 		326E4E6A23C9F4C8006A8FC7 /* TestBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326E4E6923C9F4C8006A8FC7 /* TestBuilder.swift */; };
 		326E4E6C23C9F647006A8FC7 /* StudentBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326E4E6B23C9F647006A8FC7 /* StudentBuilder.swift */; };
+		326E4E6E23C9F8BA006A8FC7 /* ChainedBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326E4E6D23C9F8BA006A8FC7 /* ChainedBuilder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		326E4E6723C9F3C8006A8FC7 /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
 		326E4E6923C9F4C8006A8FC7 /* TestBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestBuilder.swift; sourceTree = "<group>"; };
 		326E4E6B23C9F647006A8FC7 /* StudentBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentBuilder.swift; sourceTree = "<group>"; };
+		326E4E6D23C9F8BA006A8FC7 /* ChainedBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChainedBuilder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				326E4E6723C9F3C8006A8FC7 /* Student.swift */,
 				326E4E6923C9F4C8006A8FC7 /* TestBuilder.swift */,
 				326E4E6B23C9F647006A8FC7 /* StudentBuilder.swift */,
+				326E4E6D23C9F8BA006A8FC7 /* ChainedBuilder.swift */,
 			);
 			path = Pattern;
 			sourceTree = "<group>";
@@ -160,6 +163,7 @@
 			files = (
 				326E4E6C23C9F647006A8FC7 /* StudentBuilder.swift in Sources */,
 				326E4E5523C9EF92006A8FC7 /* ViewController.swift in Sources */,
+				326E4E6E23C9F8BA006A8FC7 /* ChainedBuilder.swift in Sources */,
 				326E4E6A23C9F4C8006A8FC7 /* TestBuilder.swift in Sources */,
 				326E4E5123C9EF92006A8FC7 /* AppDelegate.swift in Sources */,
 				326E4E5323C9EF92006A8FC7 /* SceneDelegate.swift in Sources */,
