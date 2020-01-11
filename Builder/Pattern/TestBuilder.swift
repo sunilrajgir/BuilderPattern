@@ -25,5 +25,11 @@ class TestBuilder {
         .build()
         
         print("url == \(url!)")
+        
+        let book = BlockBasedBuilder().build { (book) in
+            book.name = "Kartick"
+            book.price = 1000
+        }
+        
     }
 }
